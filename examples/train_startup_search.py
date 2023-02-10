@@ -126,7 +126,7 @@ class Model(TrainableModel):
 
 ap = argparse.ArgumentParser()
 ap.add_argument(
-    "--dataset", "-d", help="Path to dataset file", default="web_summit_startups.jsonl "
+    "--dataset", "-d", help="Path to dataset file", default="web_summit_startups.jsonl"
 )
 args = ap.parse_args()
 
